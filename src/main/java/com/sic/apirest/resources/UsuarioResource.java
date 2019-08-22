@@ -1,4 +1,4 @@
-package com.sic.apirest.controller;
+package com.sic.apirest.resources;
 
 import java.util.List;
 
@@ -18,8 +18,8 @@ import com.sic.apirest.repository.UsuarioRepository;
 
 @CrossOrigin(origins = "*")
 @RestController
-@RequestMapping("usuario")
-public class UsuarioController {
+@RequestMapping("/usuario")
+public class UsuarioResource {
 
     @Autowired
     private UsuarioRepository usuarioRepository;

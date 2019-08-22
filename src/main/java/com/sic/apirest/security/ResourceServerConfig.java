@@ -12,14 +12,15 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 
     @Override
     public void configure(HttpSecurity http) throws Exception {
+    	
     	http
-    	.csrf()
-        .disable()
+    	//.csrf()
+        //.disable()
         .authorizeRequests()
-        .antMatchers(HttpMethod.GET,"/sic/api/**").permitAll()
+        .antMatchers(HttpMethod.GET,"api/pes/**").permitAll()
     
        .antMatchers(HttpMethod.POST, "/usuario").permitAll()
-       .antMatchers(HttpMethod.GET, "/usuario").authenticated();
+       .antMatchers(HttpMethod.GET, "/usuario").denyAll();
         
     }
     //http://localhost:9000/sic/api/pessoas

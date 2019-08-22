@@ -23,7 +23,7 @@ import io.swagger.annotations.ApiOperation;
 
 @CrossOrigin(origins = "*")
 @RestController
-@RequestMapping(value="sic/api")
+@RequestMapping(value="api/pes")
 @Api(value="API REST PesVOs")
 public class PesResource {
 	

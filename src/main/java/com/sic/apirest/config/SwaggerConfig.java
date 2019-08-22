@@ -25,7 +25,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.sic.apirest"))
-                .paths(regex("/sic/api.*"))
+                .paths(regex("/api.*"))
                 .build()
                 .apiInfo(metaInfo());
     }
