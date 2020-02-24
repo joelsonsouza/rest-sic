@@ -32,16 +32,7 @@ public class SwaggerConfig {
 
     private ApiInfo metaInfo() {
 
-       /* ApiInfo apiInfo = new ApiInfo(
-                "SIC API REST",
-                "API REST GERENCIAMENTO DO SISTEMA DA IGREJA CENTRAL.",
-                "1.0",
-                "Terms of Service",
-                new Contact("Michelli Brito", "https://www.youtube.com/michellibrito",
-                        "michellidibrito@gmail.com"),
-                "Apache License Version 2.0",
-                "https://www.apache.org/licesen.html", new ArrayList<VendorExtension>()
-        );*/
+
         ApiInfo apiInfo = new ApiInfo(
                 "SIC API REST",
                 "API REST GERENCIAMENTO DO SISTEMA DA IGREJA CENTRAL.",
