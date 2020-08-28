@@ -6,7 +6,7 @@
 
 	<groupId>com.sic.apirest</groupId>
 	<artifactId>rest-sic</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-ALPHA</version>
 	<packaging>jar</packaging>
 
 	<name>rest-sic</name>
